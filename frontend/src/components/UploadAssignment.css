@@ -1,0 +1,60 @@
+.assignment-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assignment-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .assignment-form input, .assignment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .assignment-form textarea {
+    height: 150px;
+  }
+  
+  .assignment-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .assignment-form button:hover {
+    background-color: #007bff;
+  }
+  
+  .submitted-assignments {
+    margin-top: 30px;
+  }
+  
+  .assignment-details {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assignment-details p {
+    margin: 5px 0;
+  }
+  
+  .assignment-details a {
+    color: #0066cc;
+  }
+  

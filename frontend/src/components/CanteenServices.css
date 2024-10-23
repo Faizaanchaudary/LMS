@@ -1,0 +1,25 @@
+.canteen-services-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.canteen-button {
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: block; 
+    font-size: 16px; 
+    margin: 10px auto; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    width: 80%; 
+    max-width: 300px; 
+}
+
+.canteen-button:hover {
+    background-color: #0056b3; 
+}

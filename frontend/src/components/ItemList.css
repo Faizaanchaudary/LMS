@@ -1,0 +1,29 @@
+.item-list-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.item-list-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.item-list-table th, .item-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.item-list-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.item-list-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.item-list-table tr:hover {
+    background-color: #ddd;
+}
