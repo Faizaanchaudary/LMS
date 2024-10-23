@@ -28,7 +28,7 @@ function App() {
                 <Route path="/item-list" element={<ItemList />} />
                 <Route path="/new-orders" element={<NewOrders />} />
                 <Route path="/order-food" element={<OrderFood />} />
-                <Route path="/upload-assignment" element={<UploadAssignment />} /> {/* Add the route */}
+                <Route path="/upload-assignment" element={<UploadAssignment />} />
             </Routes>
         </Router>
     );

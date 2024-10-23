@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './CanteenLogin.css'; // Make sure this file includes necessary styles
+import './CanteenLogin.css'; 
 
 const CanteenLogin = () => {
     const [credentials, setCredentials] = useState({ email: '', password: '' });

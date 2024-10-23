@@ -1,4 +1,4 @@
-/* .new-orders-container {
+.new-orders-container {
     text-align: center;
     margin-top: 50px;
 }
@@ -16,7 +16,7 @@
 }
 
 .orders-table th {
-    background-color: #4CAF50;
+    background-color: #007bff;
     color: white;
 }
 
@@ -26,18 +26,4 @@
 
 .orders-table tr:hover {
     background-color: #ddd;
-} */
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #f2f2f2;
 }

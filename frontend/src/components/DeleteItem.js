@@ -1,4 +1,3 @@
-// frontend/src/components/DeleteItem.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './DeleteItem.css'; 

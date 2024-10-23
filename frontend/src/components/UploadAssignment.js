@@ -42,10 +42,7 @@ const UploadAssignment = () => {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
 
-      // Add the new assignment to the list
       setSubmittedAssignments([...submittedAssignments, response.data]);
-
-      // Reset form fields
       setAssignmentDetails({
         studentName: '',
         assignmentNum: '',
@@ -61,7 +58,7 @@ const UploadAssignment = () => {
   };
 
   const formatDate = (dateString) => {
-    return new Date(dateString).toISOString().split('T')[0]; // Formats date to YYYY-MM-DD
+    return new Date(dateString).toISOString().split('T')[0]; 
   };
 
   return (

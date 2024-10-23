@@ -38,7 +38,6 @@ const NewOrders = () => {
                                 <td>{order.studentName}</td>
                                 <td>{order.department}</td>
                                 <td>{order.semester}</td>
-                                {/* Corrected this line to show `order.item.name` */}
                                 <td>{order.item.name}</td> 
                                 <td>{order.amount}</td>
                                 <td>{order.location}</td>
